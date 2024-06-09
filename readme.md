@@ -1,5 +1,6 @@
-# Project Bismillah
-Project Bismillah is a first project for me as a beginner and a student of Revou Software Engineer Class Berlin Section Team 4.
+# About JANCUK
+Jamming Audio Network Collection Unique Kit (JANCUK)
+Jam along with music, high-quality audio playback, connectivity within a network of music lovers, the extensive collection of songs available, the uniqueness of the app's offerings, and its functionality as a complete music toolkit.
 
 ## Tools
 The tools is all recommended for beginners, for example:
