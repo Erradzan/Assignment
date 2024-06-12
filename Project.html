@@ -1,130 +1,166 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 <head> 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale 1.0">
-    <meta name="keywords" content="music, jamming, chords, lyrics, translation">
-    <title>JUANCUK Music Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="music, jamming, chords, lyrics, translation, exercise, experience">
+    <meta property="og:title" content="JUANCOOXX Music Web">
+    <meta property="og:description" content="Konoha's Favorite Music Web for jamming while looking at chords, and lyrics.">
+    <title>JUANCOOXX</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .centered-table {
+            margin: 0 auto;
+        }
+        .featured-tracks-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .featured-tracks-table {
+            margin: 0 auto;
+            text-align: left;
+        }
+        .center-text {
+            text-align: center;
+        }
+        .margin-1px {
+            margin: 1px;
+        }
+        .featured-tracks-table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+        }
+        .featured-tracks-table td img {
+            display: block;
+            margin: 0 auto 10px;
+        }
+        .left-align {
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1 style="text-align:center; margin-bottom: 1px;">JUANCUK</h1>
-        <h2 style="text-align:center; margin-top: 1px; margin-bottom: 1px;">Jamming Utility Audio Network Collection Unique Kit</h2>
-        <p style="text-align:center; margin-top: 1px;">Konoha's Favorite Music Web</p>
-        <table>
-            <tr>
-                <td>
-                    <a href="#">Home</a>
-                </td>
-                <td>
-                    <a href="#">Session</a>
-                </td>
-                <td>
-                    <a href="#">Settings</a>
-                </td>
-                <td>
-                    <a href="#">Log In</a>
-                </td>
-            </tr>
-        </table>
-        <form action="#" method="get">
-            <label for="Search">Search:</label>
-            <input type="text" id="Search" name="Tracks">
-            <button type="submit">Search</button>
-        </form>
+        <div>
+            <h1 class="center-text margin-1px">JUANCOOXX</h1>
+            <h2 class="center-text margin-1px">Jamming Utility Audio Network Collection Organized Output Xercise & Xperience</h2>
+            <p class="center-text margin-1px">Konoha's Favorite Music Web</p>
+        </div>
+        <nav>
+            <div>
+                <table class="centered-table">
+                    <tr>
+                        <td><a href="#">Home</a></td>
+                        <td><a href="#">Sessions</a></td>
+                        <td><a href="#">Genres</a></td>
+                        <td><a href="#">Settings</a></td>
+                    </tr>
+                </table>
+            </div>
+        </nav>
+        <div>
+            <form action="#" method="get">
+                <label for="Search">Search:</label>
+                <input type="text" id="Search" name="query" placeholder="Artist, Tracks, Album">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+        <div>
+            <form action="#" method="post" class="left-align">
+                <label for="input-username">Username:</label>
+                <input type="text" id="input-username" name="username"><br>
+                <label for="input-password">Password:</label>
+                <input type="password" id="input-password" name="password"><br>
+                <table>
+                    <td><button type="submit">Log In</button></td>
+                    <td><p>Didn't have account yet?</p></td>
+                    <td><button type="menu">Sign Up</button></td>
+                </table>
+            </form>
+        </div>
     </header>
     <main>
-        <h2>Featured Song</h2>
-        <table>
-            <tr>
-                <td>
-                    <img title="Click for youtube" src="https://i1.sndcdn.com/artworks-000201589452-05169f-t500x500.jpg" alt="Album Cover" style="width:300px;height:200px;">
-                    <h3 style="text-align:center; text-align:center; margin-top: 1px; margin-bottom: 1px;">Judul-judulan</h3>
-                    <p style="text-align:center; margin-top: 1px; margin-bottom: 1px;">
-                        <a href="#">
-                            <b title="See Artist">OM PMR</b>
-                        </a>
-                    </p>
-                    <p style="text-align:center; margin-top: 1px; margin-bottom: 1px;">
-                        <a href="#">
-                            <b>
-                                <b title="Lyrics & Translation Available">Lyrics & Translation</b>
-                            </b>
-                        </a>
-                    </p>
-                    <p style="text-align:center; margin-top: 1px; margin-bottom: 1px;"> 
-                        <a href="#">
-                            <b title="Chords Available">Chords</b>
-                        </a>
-                    </p>    
-                    <p style="text-align:center; text-align:center; margin-top: 1px;"><input type="checkbox" id="Add" name="Add Jamming Session">Add to Jamming Session</p>
-                        
-                </td>
-                <td>
-                    <img title="Click for youtube" src="https://i.ytimg.com/vi/PPlD9rgKZt8/sddefault.jpg" alt="Album Cover" style="width:300px;height:200px;">
-                    <h3 style="text-align:center; margin-top: 1px; margin-bottom: 1px;">Nyanyian Kode</h3>
-                    <p style="text-align:center; margin-top: 1px; margin-bottom: 1px;">
-                        <a href="#">
-                            <b title="See Artist">Warkop DKI</b>
-                        </a>
-                    </p>
-                    <p style="text-align:center; margin-top: 1px; margin-bottom: 1px;">
-                        <a href="#">
-                            <b title="Lyrics & Translation Available">Lyrics & Translation</b>
-                        </a>
-                    </p>
-                    <p style="text-align:center; margin-top: 1px; margin-bottom: 1px;"> 
-                        <a href="#">
-                            <b title="Chords Available">Chords</b>
-                        </a>
-                    </p>
-                    <p style="text-align:center; margin-top: 1px;"><input type="checkbox" id="Add" name="Add Jamming Session">Add to Jamming Session</p>
-                </td>
-                <td>
-                    <img title="Click for youtube" src="https://i1.sndcdn.com/artworks-000201589452-05169f-t500x500.jpg" alt="Album Cover" style="width:300px;height:200px;">
-                    <h3 style="text-align:center; margin-top: 1px; margin-bottom: 1px;">Cinta Melulu</h3>
-                    <p style="text-align:center; margin-top: 1px; margin-bottom: 1px;">
-                        <a href="#">
-                            <b title="See Artist">OM PMR</b>
-                        </a>
-                    </p>
-                    <p style="text-align:center; margin-top: 1px; margin-bottom: 1px;">
-                        <a href="#">
-                            <b title="Lyrics & Translation Available">Lyrics & Translation</b>
-                        </a>
-                    </p>
-                    <p style="text-align:center; margin-top: 1px; margin-bottom: 1px;"> 
-                        <a href="#">
-                            <b title="Chords Available">Chords</b>
-                        </a>
-                    </p>
-                    <p style="text-align:center; margin-top: 1px;"><input type="checkbox" id="Add" name="Add Jamming Session">Add to Jamming Session</p>
-                </td>
-                <td>
-                    <img title="Click for youtube" src="https://asset-2.tstatic.net/style/foto/bank/images/warteg-boyz-okelah-kalo-begitu_20171223_175420.jpg" alt="Album Cover" style="width:300px;height:200px;">
-                    <h3 style="text-align:center; margin-top: 1px; margin-bottom: 1px;">Okelah Kalo Begitu</h3>
-                    <p style="text-align:center; margin-top: 1px; margin-bottom: 1px;">
-                        <a href="#">
-                            <b title="See Artist">Warteg Boyz</b>
-                        </a>
-                    </p>
-                    <p style="text-align:center; margin-top: 1px; margin-bottom: 1px;">
-                        <a href="#">
-                            <b title="Lyrics & Translation Available">Lyrics & Translation</b>
-                        </a>
-                    </p>
-                    <p style="text-align:center; margin-top: 1px; margin-bottom: 1px;"> 
-                        <a href="#">
-                            <b title="Chords Available">Chords</b>
-                        </a>
-                    </p>
-                    <p style="text-align:center; margin-top: 1px;"><input type="checkbox" id="Add" name="Add Jamming Session">Add to Jamming Session</p>
-                </td>
-            </tr>
-        </table>
+        <div>
+            <h2 class="left-align">Featured Tracks</h2>
+            <table class="centered-table featured-tracks-table">
+                <tr>
+                    <td>
+                        <img title="11/12 Album" src="https://images.genius.com/de53f25dcd7d7e6e16117d5bbacfb626.1000x1000x1.jpg" alt="Album Cover" style="width:300px;height:200px;">
+                        <h3 class="center-text margin-1px">Sakit Jiwa</h3>
+                        <p class="center-text margin-1px">
+                            <a href="#"><b title="See Artist">NTRL</b></a>
+                        </p>
+                        <p class="center-text margin-1px">
+                            <a href="#"><b title="Lyrics & Translation Available">Lyrics & Translation</b></a>
+                        </p>
+                        <p class="center-text margin-1px"> 
+                            <a href="#"><b title="Chords Available">Chords</b></a>
+                        </p>    
+                        <p class="center-text margin-1px">
+                            <input type="checkbox" id="Add1" name="Add Jamming Session">Add to Jamming Session
+                        </p>
+                    </td>
+                    <td>
+                        <img title="Pintar-Pintar Bodoh OST" src="https://i.ytimg.com/vi/PPlD9rgKZt8/sddefault.jpg" alt="Album Cover" style="width:300px;height:200px;">
+                        <h3 class="center-text margin-1px">Nyanyian Kode</h3>
+                        <p class="center-text margin-1px">
+                            <a href="#"><b title="See Artist">Warkop DKI</b></a>
+                        </p>
+                        <p class="center-text margin-1px">
+                            <a href="#"><b title="Lyrics & Translation Available">Lyrics & Translation</b></a>
+                        </p>
+                        <p class="center-text margin-1px"> 
+                            <a href="#"><b title="Chords Available">Chords</b></a>
+                        </p>
+                        <p class="center-text margin-1px">
+                            <input type="checkbox" id="Add2" name="Add Jamming Session">Add to Jamming Session
+                        </p>
+                    </td>
+                    <td>
+                        <img title="Lander Album" src="https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/31/b7/6d/31b76dd3-5fef-180e-bbe6-7d4880227ccd/4547366588255.jpg/600x600bf-60.jpg" alt="Album Cover" style="width:300px;height:200px;">
+                        <h3 class="center-text margin-1px">「炎」(Homura)</h3>
+                        <p class="center-text margin-1px">
+                            <a href="#"><b title="See Artist">LiSA Olive</b></a>
+                        </p>
+                        <p class="center-text margin-1px">
+                            <a href="#"><b title="Lyrics & Translation Available">Lyrics & Translation</b></a>
+                        </p>
+                        <p class="center-text margin-1px"> 
+                            <a href="#"><b title="Chords Available">Chords</b></a>
+                        </p>
+                        <p class="center-text margin-1px">
+                            <input type="checkbox" id="Add3" name="Add Jamming Session">Add to Jamming Session
+                        </p>
+                    </td>
+                    <td>
+                        <img title="007 Skyfall OST" src="https://i.scdn.co/image/ab67616d0000b2732b62f79949ec100b29c04b00" alt="Album Cover" style="width:300px;height:200px;">
+                        <h3 class="center-text margin-1px">Skyfall</h3>
+                        <p class="center-text margin-1px">
+                            <a href="#"><b title="See Artist">Adele</b></a>
+                        </p>
+                        <p class="center-text margin-1px">
+                            <a href="#"><b title="Lyrics & Translation Available">Lyrics & Translation</b></a>
+                        </p>
+                        <p class="center-text margin-1px"> 
+                            <a href="#"><b title="Chords Available">Chords</b></a>
+                        </p>
+                        <p class="center-text margin-1px">
+                            <input type="checkbox" id="Add4" name="Add Jamming Session">Add to Jamming Session
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </main>
-
-
 </body>
-
 </html>
